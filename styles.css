@@ -1,0 +1,17 @@
+body{
+    background-color: #F2E3DB;
+}
+
+.title{
+    text-align: center;
+    line-height: 4;
+    font-weight: bold;
+    font-size: 30px;
+    color: #263A29;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-color: #E86A33;
+    text-decoration-style: wavy;
+    text-decoration-thickness: bold;
+}
