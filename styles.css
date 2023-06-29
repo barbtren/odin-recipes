@@ -1,29 +1,39 @@
-body{
+*{
     background-color: #F2E3DB;
+    line-height:2.7;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:none;
+    list-style:none;
 }
 
-.title {
-    text-align: center;
-    line-height: 4;
-    font-weight: bold;
-    font-size: 30px;
+div .title-section{
+    background-color:#41644A
+}
+h1 {
+    
+    font-weight: bolder;
+    font-size: 50px;
     color: #263A29;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: underline;
-    text-underline-offset: 15px;
-    text-decoration-color: #E86A33;
-    text-decoration-style: wavy;
-    text-decoration-thickness: bold;
+    text-decoration: underline wavy #E86A33 10px;
+    text-underline-offset: 30px;
+    
 }
 
 img{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+
     width:30%;
-    border-radius:50%;
+    border-radius:40%;
+    border: 10px dotted #41644A;
 
-
-    
 }
-    
+.recipes{
+        
+        text-transform:uppercase;
+        font-size:25px;
+        font-weight:bold;
+
+    }
+a{
+    color:#41644A;
+}
