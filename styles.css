@@ -64,8 +64,19 @@ h2{
     margin-left:200px;
 }
 
+.ingredients h4{
+    text-align:left;
+    margin-left:280px;
+    text-decoration: underline solid #E86A33 3px;
+    text-underline-offset:5px;
+
+}
 
 
 .return-button{
     background-color:#e99e7d;
+}
+
+u{
+    text-decoration:underline solid black 2px;
 }
