@@ -16,13 +16,17 @@ h1 {
     text-decoration: underline wavy #E86A33 10px;
     text-underline-offset: 30px;
     
+    
 }
 
 img{
 
-    width:30%;
+    display:block;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
     border-radius:40%;
-    border: 10px dotted #41644A;
+    border: 10px dotted #263A29;
 
 }
 .recipes ul{
@@ -31,11 +35,19 @@ img{
         font-weight:bold;
 
     }
+.recipes li{
+    display:inline-block;
+    margin:15px;
+}
 a{
     color:#41644A;
     font-size:25px;
     background-color:#e99e7d;
+    padding:15px;
+    border:3px dotted #263A29;
 }
+
+/* additional styling for recipe pages-- */
 
 .recipe-body{
     line-height: 1.5;
@@ -61,12 +73,12 @@ h2{
 .recipe-body ul li, .recipe-body ol li{
     list-style-position:inside;
     text-align:left;
-    margin-left:200px;
+    margin-left:20px;
 }
 
 .ingredients h4{
     text-align:left;
-    margin-left:280px;
+    margin-left:100px;
     text-decoration: underline solid #E86A33 3px;
     text-underline-offset:5px;
 
@@ -79,4 +91,9 @@ h2{
 
 u{
     text-decoration:underline solid black 2px;
+}
+
+.highlight {
+    background-color:#a2f1b6;
+    text-decoration:underline;
 }
